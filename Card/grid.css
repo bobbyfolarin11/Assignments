@@ -1,0 +1,50 @@
+body{
+    background-color: darkblue;
+    display: grid;
+    place-items: center;
+}
+main{
+    display: grid;
+    grid-template-areas: 
+    'a a a a b b'
+    'a a a a b b'
+    'c c d d d d'
+    'c c e e e e'
+    ;
+    width: 1000px;
+    height: 500px;
+    gap: 12px;
+    margin-top: 5%;
+}
+
+.a{
+    background-color: darkorange;
+    grid-area: a;
+}
+.b{
+    background-color: gold;
+    grid-area: b;
+}
+.c{
+    background-color: green;
+    grid-area: c;
+}
+.d{
+    background-color: deepskyblue;
+    grid-area: d;
+}
+.e{
+    background-color: deepskyblue;
+    grid-area: e;
+}
+
+@media (max-width:740px){
+  body{
+    margin-top: 13rem;
+  }
+  main{
+   width: 200px;
+   height: 150px;
+    }
+  
+}

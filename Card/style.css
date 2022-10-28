@@ -1,0 +1,74 @@
+body{
+    background-color: (0, 0%, 95%);
+    
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+  }
+#sedans{
+    background-color:hsl(31, 77%, 52%);
+    width: 300px;
+}
+#suvs{
+    background-color: hsl(184, 100%, 22%);
+    width: 300px;
+}
+#luxury{
+    background-color: hsl(179, 100%, 13%);
+    width: 300px;
+}
+
+h1{
+    font-family: 'Big Shoulders', cursive;
+    font-weight: 700;
+    padding-left: 40px;
+    color: hsl(0, 0%, 95%);
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-top: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+}
+
+img{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+
+button{
+    color: hsl(0, 0%, 95%);
+    border: solid 1px hsl(0, 0%, 95%);
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    background-color: transparent;
+    padding: 25px 40px 25px 40px;
+    border-radius: 40px;
+    cursor: pointer;
+    
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+@media (max-width:740px){
+    .flex{
+      flex-direction: column;
+      place-items: center;
+    }
+    h1{
+        padding-left: 25px ;
+  }
+    p{
+        padding-left: 21px;
+    }
+    button{
+        margin-left: 30px;
+        padding: 25px 10px 25px 10px
+    }
+}
+
